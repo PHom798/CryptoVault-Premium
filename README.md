@@ -58,17 +58,12 @@
 
 **CryptoVault Premium** is not just another cryptocurrency wallet—it's a **living blockchain experience**. Built with cutting-edge Flutter technology and integrated with Ethereum's Sepolia testnet, this premium wallet transforms complex blockchain interactions into an elegant, intuitive interface.
 
-### 🎓 Final Year Project / Portfolio Showcase
-**Project Type:** Blockchain Wallet Application  
-**Domain:** Web3 | Blockchain | Fintech | Cryptocurrency  
-**Focus:** Security, UI/UX Excellence, Real-Time Visualization
 
 ### 🌟 What Makes It Special?
 
 - 🎭 **Living Interface:** Animated network nodes that pulse with blockchain activity
 - 📊 **Real-Time Stats:** Live gas prices, block confirmations, and network health
 - 🎨 **Premium Design:** Glassmorphism, smooth animations, and thoughtful micro-interactions
-- 🔒 **Bank-Level Security:** Multi-layer encryption and secure key management
 - ⚡ **Lightning Fast:** Optimized transaction processing and instant updates
 - ✅ **Etherscan Verified:** All transactions verifiable on Etherscan explorer
 
@@ -82,44 +77,16 @@
 - ✅ Full Web3 integration with Ethereum blockchain
 - ✅ Real-time connection to Sepolia testnet
 - ✅ Instant transaction broadcasting
-- ✅ Automatic block confirmation tracking
 - ✅ Gas price optimization
 - ✅ Etherscan API integration for transaction verification
-
-#### **Smart Contract Support**
-- ERC-20 token transactions
-- Contract interaction interface
-- ABI encoding/decoding
-- Event listening and parsing
 
 ### 💰 **Wallet Functionality**
 
 #### **Core Features**
-- 🔑 **Secure Wallet Creation:** Generate new wallets with mnemonic phrases
-- 📥 **Import Existing Wallets:** Support for private keys and seed phrases
 - 💵 **Balance Display:** Real-time ETH balance updates
-- 📜 **Transaction History:** Complete transaction log with status indicators
 - 💸 **Send ETH:** Seamless Ethereum transfers with custom gas settings
 - 📲 **Receive ETH:** QR code generation for easy receiving
-- 💱 **Multi-Currency Display:** View balance in USD, EUR, and other fiat currencies
 
-#### **Advanced Features**
-- 📊 **Gas Price Estimator:** Smart gas price suggestions (Low, Medium, High)
-- ⏱️ **Transaction Speed Control:** Customize gas fees for faster confirmations
-- 🔔 **Push Notifications:** Real-time alerts for incoming/outgoing transactions
-- 📍 **Address Book:** Save frequently used addresses with custom labels
-- 🔍 **Transaction Scanner:** Search and filter transaction history
-- 📈 **Portfolio Analytics:** Track wallet performance over time
-
-### 📊 **Live Network Statistics**
-
-#### **Real-Time Data Dashboard**
-- 🔥 **Current Gas Prices:** Live Gwei prices for different transaction speeds
-- ⛏️ **Latest Block Number:** Real-time blockchain height
-- ⏱️ **Average Block Time:** Network performance metrics
-- 👥 **Pending Transactions:** Mempool statistics
-- 💹 **ETH Price Feed:** Live cryptocurrency pricing
-- 🌍 **Network Health:** Connection status and node information
 
 #### **Animated Visualizations**
 - Pulsing nodes representing blockchain activity
@@ -159,103 +126,6 @@ Surface:   #1E2A47 (Card Background)
 - Monospace: Fira Code (for addresses and hashes)
 - Responsive sizing with fluid scaling
 
-#### ✨ **Animation & Micro-Interactions**
-
-**Hero Animations**
-- Smooth page transitions with hero widgets
-- Staggered list animations for transaction history
-- Parallax scrolling effects
-- Shimmer loading states
-
-**Interactive Elements**
-- Haptic feedback on button presses
-- Ripple effects with custom colors
-- Bouncy buttons with spring animations
-- Floating action buttons with morphing states
-
-**Network Visualization**
-- Particle system for blockchain nodes
-- Connecting lines with data flow animation
-- Pulsing effects synchronized with block times
-- Color-coded transaction types
-
-#### 📱 **Responsive Design**
-- Adaptive layouts for phones, tablets, and desktop
-- Dynamic spacing based on screen size
-- Portrait and landscape optimizations
-- Gesture-based navigation
-
----
-
-## 🔐 Security Architecture
-
-### **Multi-Layer Security Model**
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                    USER INTERFACE                        │
-└─────────────────────┬───────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────────────────┐
-│            BIOMETRIC AUTHENTICATION LAYER                │
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────┐   │
-│  │ Fingerprint  │  │   Face ID    │  │     PIN     │   │
-│  └──────────────┘  └──────────────┘  └─────────────┘   │
-└─────────────────────┬───────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────────────────┐
-│              ENCRYPTION LAYER (AES-256)                  │
-│  ┌──────────────────────────────────────────────────┐   │
-│  │     Private Keys Encrypted in Secure Storage     │   │
-│  └──────────────────────────────────────────────────┘   │
-└─────────────────────┬───────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────────────────┐
-│              WEB3 TRANSACTION LAYER                      │
-│  ┌──────────────┐  ┌──────────────┐  ┌─────────────┐   │
-│  │ Sign Locally │  │   Broadcast  │  │   Confirm   │   │
-│  └──────────────┘  └──────────────┘  └─────────────┘   │
-└─────────────────────┬───────────────────────────────────┘
-                      │
-                      ▼
-┌─────────────────────────────────────────────────────────┐
-│              ETHEREUM SEPOLIA TESTNET                    │
-└─────────────────────────────────────────────────────────┘
-```
-
-### **Security Features**
-
-#### 🔒 **Key Management**
-- **BIP39 Mnemonic Generation:** 12/24 word recovery phrases
-- **Hierarchical Deterministic (HD) Wallets:** BIP32/BIP44 support
-- **Secure Enclave Storage:** Private keys never leave device
-- **Encrypted Backup:** Cloud backup with user encryption key
-- **Auto-Lock:** Automatic security timeout
-
-#### 🛡️ **Transaction Security**
-- **Local Signing:** All transactions signed on-device
-- **Transaction Preview:** Detailed confirmation before sending
-- **Address Validation:** Checksum verification for Ethereum addresses
-- **Gas Price Warnings:** Alerts for unusually high gas fees
-- **Double-Spend Protection:** Transaction nonce management
-
-#### 🔐 **Authentication Options**
-- Biometric authentication (Face ID / Touch ID)
-- 6-digit PIN code
-- Pattern lock
-- Password protection
-- Two-factor authentication (2FA) ready
-
-#### 🚨 **Security Best Practices**
-- No private keys stored in plain text
-- Secure communication with SSL pinning
-- Regular security audits
-- Open-source components
-- No telemetry or tracking
-
 ---
 
 ## ⚡ Technology Stack
@@ -271,20 +141,6 @@ Surface:   #1E2A47 (Card Background)
 ![Web3](https://img.shields.io/badge/Web3.dart-F16822?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Etherscan](https://img.shields.io/badge/Etherscan%20API-21325B?style=for-the-badge&logo=ethereum&logoColor=white)
 
-### **Backend & APIs**
-![Infura](https://img.shields.io/badge/Infura-FF6B4A?style=for-the-badge&logo=ethereum&logoColor=white)
-![Alchemy](https://img.shields.io/badge/Alchemy-363FF9?style=for-the-badge&logo=alchemy&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-
-### **Security**
-![Encryption](https://img.shields.io/badge/AES--256-FF6B6B?style=for-the-badge&logo=letsencrypt&logoColor=white)
-![Secure Storage](https://img.shields.io/badge/Secure%20Storage-4CAF50?style=for-the-badge&logo=auth0&logoColor=white)
-![Biometric](https://img.shields.io/badge/Biometric%20Auth-2196F3?style=for-the-badge&logo=fingerprint&logoColor=white)
-
-### **State Management & Architecture**
-![Provider](https://img.shields.io/badge/Provider-DD0031?style=for-the-badge&logo=flutter&logoColor=white)
-![Riverpod](https://img.shields.io/badge/Riverpod-2C8EBB?style=for-the-badge&logo=flutter&logoColor=white)
-![Clean Architecture](https://img.shields.io/badge/Clean%20Architecture-5C2D91?style=for-the-badge&logo=architecture&logoColor=white)
 
 </div>
 
@@ -297,24 +153,15 @@ dependencies:
   # Blockchain & Web3
   web3dart: ^2.7.1              # Ethereum integration
   http: ^1.1.0                  # HTTP requests
-  bip39: ^1.0.6                 # Mnemonic generation
-  ed25519_hd_key: ^2.2.0        # HD wallet support
-  hex: ^0.2.0                   # Hex encoding/decoding
-  
-  # State Management
-  provider: ^6.0.5              # State management
-  riverpod: ^2.4.0              # Advanced state management
-  
+
+
   # UI & Animations
   flutter_animate: ^4.3.0       # Advanced animations
-  lottie: ^2.7.0                # Lottie animations
   shimmer: ^3.0.0               # Shimmer effects
   glassmorphism: ^3.0.0         # Frosted glass effects
   
   # Security
   flutter_secure_storage: ^9.0.0  # Secure key storage
-  local_auth: ^2.1.7               # Biometric auth
-  encrypt: ^5.0.3                  # Encryption utilities
   
   # Utilities
   qr_flutter: ^4.1.0            # QR code generation
@@ -327,100 +174,8 @@ dependencies:
 
 ---
 
-## 🏗️ System Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│                     PRESENTATION LAYER                           │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │
-│  │  Dashboard   │  │   Wallet     │  │ Transaction  │          │
-│  │    Screen    │  │   Screen     │  │    Screen    │          │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘          │
-│         │                  │                  │                  │
-└─────────┼──────────────────┼──────────────────┼──────────────────┘
-          │                  │                  │
-          ▼                  ▼                  ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     BUSINESS LOGIC LAYER                         │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │
-│  │   Wallet     │  │ Transaction  │  │   Network    │          │
-│  │  Provider    │  │   Manager    │  │   Monitor    │          │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘          │
-│         │                  │                  │                  │
-└─────────┼──────────────────┼──────────────────┼──────────────────┘
-          │                  │                  │
-          ▼                  ▼                  ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                        DATA LAYER                                │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │
-│  │  Web3 Client │  │Secure Storage│  │Local Database│          │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘          │
-│         │                  │                  │                  │
-└─────────┼──────────────────┼──────────────────┼──────────────────┘
-          │                  │                  │
-          ▼                  ▼                  ▼
-┌─────────────────────────────────────────────────────────────────┐
-│                     EXTERNAL SERVICES                            │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐          │
-│  │   Ethereum   │  │  Etherscan   │  │Price Feed API│          │
-│  │Sepolia Network│  │     API      │  │              │          │
-│  └──────────────┘  └──────────────┘  └──────────────┘          │
-└─────────────────────────────────────────────────────────────────┘
-```
-
-### **Architecture Principles**
-
-- ✅ **Clean Architecture:** Separation of concerns with clear layer boundaries
-- ✅ **SOLID Principles:** Maintainable and scalable codebase
-- ✅ **Dependency Injection:** Loose coupling for testability
-- ✅ **Repository Pattern:** Abstraction of data sources
-- ✅ **Provider Pattern:** Reactive state management
-
----
-
-## 🌊 Live Network Visualization
-
-### **Animated Blockchain Nodes**
-
-The app features a **living, breathing visualization** of the Ethereum network that responds to real-time blockchain activity.
-
-#### 🎭 **Visual Elements**
-
-**Node Animation**
-- Pulsing spheres representing blockchain nodes
-- Size varies based on transaction volume
-- Color-coded by node type (validator, peer, local)
-- Smooth fade-in/fade-out effects
-
-**Connection Lines**
-- Animated paths between connected nodes
-- Data packets flowing along connections
-- Line thickness indicates connection strength
-- Glowing effects for active transactions
-
-**Particle Effects**
-- Sparkles during transaction confirmation
-- Ripple effects on new blocks
-- Floating particles for pending transactions
-- Burst animations for completed transfers
 
 #### 📊 **Real-Time Statistics Display**
-
-**Live Metrics**
-```
-┌─────────────────────────────────────────┐
-│  ⛽ Gas Price: 25 Gwei    📈 +5%        │
-│  ⛓️  Block: #5,234,891    ⏱️ 12s ago    │
-│  💸 Pending TXs: 1,234                  │
-│  💰 ETH Price: $1,845.32  📉 -2.1%      │
-└─────────────────────────────────────────┘
-```
-
-**Update Frequency**
-- Gas prices: Every 15 seconds
-- Block number: Real-time (via WebSocket)
-- ETH price: Every 30 seconds
-- Pending transactions: Every 10 seconds
 
 #### 🔄 **Auto-Refresh Mechanism**
 - Background polling for network data
