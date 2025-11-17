@@ -36,9 +36,7 @@
 
 - [🎯 Overview](#-overview)
 - [✨ Key Features](#-key-features)
-- [🎨 Premium UI/UX](#-premium-uiux)
 - [⚡ Technology Stack](#-technology-stack)
-- [🌊 Live Network Visualization](#-live-network-visualization)
 - [📸 Showcase](#-showcase)
 - [🚀 Getting Started](#-getting-started)
 - [💻 Installation](#-installation)
@@ -141,7 +139,6 @@ dependencies:
 
 ---
 
----
 
 ## 📸 Showcase
 
@@ -229,9 +226,6 @@ ALCHEMY_API_KEY=your_alchemy_api_key
 
 # Etherscan API
 ETHERSCAN_API_KEY=your_etherscan_api_key
-
-# Price Feed API
-COINGECKO_API_KEY=your_coingecko_api_key
 
 # Network Configuration
 NETWORK=sepolia
