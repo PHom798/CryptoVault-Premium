@@ -37,17 +37,11 @@
 - [🎯 Overview](#-overview)
 - [✨ Key Features](#-key-features)
 - [🎨 Premium UI/UX](#-premium-uiux)
-- [🔐 Security Architecture](#-security-architecture)
 - [⚡ Technology Stack](#-technology-stack)
-- [🏗️ System Architecture](#️-system-architecture)
 - [🌊 Live Network Visualization](#-live-network-visualization)
-- [💸 Transaction Flow](#-transaction-flow)
 - [📸 Showcase](#-showcase)
 - [🚀 Getting Started](#-getting-started)
 - [💻 Installation](#-installation)
-- [📱 Usage Guide](#-usage-guide)
-- [🔧 Configuration](#-configuration)
-- [🛣️ Roadmap](#️-roadmap)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 - [📞 Contact](#-contact)
@@ -62,7 +56,6 @@
 ### 🌟 What Makes It Special?
 
 - 🎭 **Living Interface:** Animated network nodes that pulse with blockchain activity
-- 📊 **Real-Time Stats:** Live gas prices, block confirmations, and network health
 - 🎨 **Premium Design:** Glassmorphism, smooth animations, and thoughtful micro-interactions
 - ⚡ **Lightning Fast:** Optimized transaction processing and instant updates
 - ✅ **Etherscan Verified:** All transactions verifiable on Etherscan explorer
@@ -76,8 +69,6 @@
 #### **Ethereum Sepolia Testnet**
 - ✅ Full Web3 integration with Ethereum blockchain
 - ✅ Real-time connection to Sepolia testnet
-- ✅ Instant transaction broadcasting
-- ✅ Gas price optimization
 - ✅ Etherscan API integration for transaction verification
 
 ### 💰 **Wallet Functionality**
@@ -89,42 +80,8 @@
 
 
 #### **Animated Visualizations**
-- Pulsing nodes representing blockchain activity
-- Real-time transaction flow animations
 - Network connection strength indicators
 - Interactive blockchain explorer integration
-
----
-
-## 🎨 Premium UI/UX
-
-### **Design Philosophy**
-
-Our design language combines **modern aesthetics** with **functional excellence**, creating an interface that feels alive and responds to your every interaction.
-
-#### 🌈 **Visual Design Elements**
-
-**Glassmorphism Effects**
-- Frosted glass panels with backdrop blur
-- Subtle shadows and highlights
-- Layered depth perception
-- Smooth transparency transitions
-
-**Color Palette**
-```
-Primary:   #627EEA (Ethereum Blue)
-Secondary: #E6E6FA (Lavender)
-Accent:    #50FA7B (Success Green)
-Warning:   #FFB86C (Amber)
-Error:     #FF5555 (Alert Red)
-Dark:      #121D33 (Deep Space)
-Surface:   #1E2A47 (Card Background)
-```
-
-**Typography**
-- Primary: SF Pro Display / Roboto
-- Monospace: Fira Code (for addresses and hashes)
-- Responsive sizing with fluid scaling
 
 ---
 
@@ -158,7 +115,6 @@ dependencies:
   # UI & Animations
   flutter_animate: ^4.3.0       # Advanced animations
   shimmer: ^3.0.0               # Shimmer effects
-  glassmorphism: ^3.0.0         # Frosted glass effects
   
   # Security
   flutter_secure_storage: ^9.0.0  # Secure key storage
@@ -184,90 +140,6 @@ dependencies:
 - Pull-to-refresh gesture support
 
 ---
-
-## 💸 Transaction Flow
-
-### **Sending ETH - Step by Step**
-
-```
-User Input
-    │
-    ├─→ Enter Recipient Address
-    ├─→ Enter Amount (ETH)
-    ├─→ Select Gas Price (Low/Medium/High)
-    │
-    ▼
-Validation
-    │
-    ├─→ Verify Address Checksum ✓
-    ├─→ Check Sufficient Balance ✓
-    ├─→ Estimate Gas Cost ✓
-    │
-    ▼
-Transaction Preview
-    │
-    ├─→ Recipient: 0x742d...4a89
-    ├─→ Amount: 0.5 ETH
-    ├─→ Gas Fee: 0.0021 ETH
-    ├─→ Total: 0.5021 ETH
-    │
-    ▼
-Biometric Confirmation
-    │
-    ├─→ Authenticate with Face ID / Fingerprint
-    │
-    ▼
-Transaction Signing
-    │
-    ├─→ Retrieve Private Key from Secure Storage
-    ├─→ Sign Transaction Locally
-    ├─→ Generate Transaction Hash
-    │
-    ▼
-Broadcasting
-    │
-    ├─→ Send to Sepolia Network via Infura/Alchemy
-    ├─→ Receive Transaction Hash
-    │
-    ▼
-Confirmation Tracking
-    │
-    ├─→ Pending (0 confirmations)
-    ├─→ Confirming (1-5 confirmations)
-    ├─→ Confirmed (6+ confirmations) ✅
-    │
-    ▼
-Etherscan Verification
-    │
-    ├─→ Transaction visible on Etherscan
-    ├─→ Block number recorded
-    ├─→ Status: Success ✅
-    │
-    ▼
-Notification
-    │
-    └─→ Push notification sent to user
-        "Transaction Confirmed! 🎉"
-```
-
-### **Transaction States**
-
-| State | Icon | Description | Color |
-|-------|------|-------------|-------|
-| **Pending** | ⏳ | Waiting in mempool | Orange |
-| **Confirming** | 🔄 | Being validated | Blue |
-| **Confirmed** | ✅ | Successfully mined | Green |
-| **Failed** | ❌ | Transaction reverted | Red |
-
-### **Gas Price Options**
-
-```
-┌────────────────────────────────────────────┐
-│ 🐌 Slow      │ ~15 Gwei  │ ~5 minutes    │
-│ ⚡ Standard  │ ~25 Gwei  │ ~2 minutes    │
-│ 🚀 Fast      │ ~40 Gwei  │ ~30 seconds   │
-└────────────────────────────────────────────┘
-```
 
 ---
 
@@ -433,399 +305,6 @@ flutter build web --release
 
 ---
 
-## 📱 Usage Guide
-
-### **First Time Setup**
-
-#### **Option 1: Create New Wallet**
-
-1. **Open App** → Tap "Create New Wallet"
-2. **Set PIN** → Create 6-digit security PIN
-3. **Backup Phrase** → Write down 12-word recovery phrase
-4. **Verify** → Confirm recovery phrase by selecting words in order
-5. **Enable Biometrics** → (Optional) Set up Face ID / Fingerprint
-6. **Complete** → Wallet created successfully! 🎉
-
-#### **Option 2: Import Existing Wallet**
-
-1. **Open App** → Tap "Import Wallet"
-2. **Enter Recovery Phrase** → Input 12 or 24-word phrase
-3. **Set PIN** → Create new security PIN
-4. **Restore** → Wallet imported with full history
-
-### **Sending Ethereum**
-
-1. **Dashboard** → Tap "Send" button
-2. **Enter Address** → Type or scan QR code
-3. **Enter Amount** → Specify ETH to send
-4. **Select Gas Price:**
-   - 🐌 Slow (15 Gwei) - Cheapest
-   - ⚡ Standard (25 Gwei) - Balanced
-   - 🚀 Fast (40 Gwei) - Fastest
-5. **Review Transaction** → Check all details
-6. **Authenticate** → Use biometrics or PIN
-7. **Confirm** → Transaction sent!
-8. **Track** → Monitor confirmation status
-
-**Transaction Receipt:**
-```
-✅ Transaction Confirmed
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-📝 TX Hash: 0x7f23...c4d8
-👤 To: 0x742d...4a89
-💰 Amount: 0.5 ETH
-⛽ Gas Used: 21,000 units
-💵 Gas Price: 25 Gwei
-📦 Block: 5,234,891
-━━━━━━━━━━━━━━━━━━━━━━━━━━
-🔗 View on Etherscan
-```
-
-### **Receiving Ethereum**
-
-1. **Dashboard** → Tap "Receive"
-2. **Your Address Displayed** → 0x742d...4a89
-3. **QR Code Generated** → Share with sender
-4. **Copy Address** → Tap to copy to clipboard
-5. **Share** → Send via messaging apps
-6. **Wait for Confirmation** → Receive notification when ETH arrives
-
-### **Viewing Transaction History**
-
-1. **Dashboard** → Scroll to "Recent Transactions"
-2. **Filter Options:**
-   - All Transactions
-   - Sent Only
-   - Received Only
-   - Pending
-   - Failed
-3. **Tap Transaction** → View full details
-4. **Etherscan Link** → Verify on blockchain explorer
-
-### **Monitoring Network Stats**
-
-1. **Dashboard** → View "Network Stats" section
-2. **Live Updates:**
-   - Current gas prices (updated every 15s)
-   - Latest block number
-   - Pending transaction count
-   - ETH price in real-time
-3. **Animated Nodes** → Watch blockchain activity visualization
-4. **Tap for Details** → See full network information
-
----
-
-## 🔧 Configuration
-
-### **Network Settings**
-
-```dart
-// lib/config/network_config.dart
-
-class NetworkConfig {
-  static const String networkName = 'Sepolia Testnet';
-  static const int chainId = 11155111;
-  static const String rpcUrl = 'https://sepolia.infura.io/v3/YOUR_PROJECT_ID';
-  static const String explorerUrl = 'https://sepolia.etherscan.io';
-  static const String symbol = 'ETH';
-  static const int decimals = 18;
-}
-```
-
-### **Gas Price Configuration**
-
-```dart
-// lib/config/gas_config.dart
-
-class GasConfig {
-  static const Map<String, int> gasPrices = {
-    'slow': 15,      // Gwei
-    'standard': 25,  // Gwei
-    'fast': 40,      // Gwei
-  };
-  
-  static const int gasLimit = 21000; // Standard ETH transfer
-}
-```
-
-### **Security Settings**
-
-```dart
-// lib/config/security_config.dart
-
-class SecurityConfig {
-  static const bool requireBiometrics = true;
-  static const int autoLockTimeout = 300; // seconds
-  static const int maxPinAttempts = 3;
-  static const bool enableScreenshotProtection = true;
-}
-```
-
-### **Theme Customization**
-
-```dart
-// lib/config/theme_config.dart
-
-class AppTheme {
-  static const Color primaryColor = Color(0xFF627EEA);
-  static const Color secondaryColor = Color(0xFFE6E6FA);
-  static const Color accentColor = Color(0xFF50FA7B);
-  static const Color backgroundColor = Color(0xFF121D33);
-  static const Color surfaceColor = Color(0xFF1E2A47);
-  
-  static ThemeData get darkTheme => ThemeData(
-    brightness: Brightness.dark,
-    primaryColor: primaryColor,
-    // ... additional theme configurations
-  );
-}
-```
-
----
-
-## 🛣️ Roadmap
-
-### **Phase 1: Foundation** ✅ *Completed*
-- [x] Wallet creation and import
-- [x] Send/Receive ETH functionality
-- [x] Transaction history
-- [x] Biometric authentication
-- [x] Sepolia testnet integration
-- [x] Etherscan verification
-
-### **Phase 2: Enhancement** 🚧 *In Progress*
-- [x] Live network visualization
-- [x] Animated UI components
-- [x] Real-time gas price updates
-- [ ] Multi-language support
-- [ ] Dark/Light theme toggle
-- [ ] Transaction notifications
-
-### **Phase 3: Advanced Features** 📋 *Planned*
-- [ ] **ERC-20 Token Support**
-  - Add/remove custom tokens
-  - Token balance display
-  - Token transfers
-- [ ] **NFT Gallery**
-  - View NFT collection
-  - NFT metadata display
-  - OpenSea integration
-- [ ] **DApp Browser**
-  - In-app Web3 browser
-  - WalletConnect integration
-  - DApp bookmarks
-- [ ] **Portfolio Analytics**
-  - Historical performance charts
-  - Profit/loss calculations
-  - Asset allocation pie charts
-
-### **Phase 4: Mainnet & Production** 🎯 *Future*
-- [ ] **Ethereum Mainnet Support**
-  - Switch between networks
-  - Mainnet transaction handling
-  - Enhanced security for real funds
-- [ ] **Multi-Chain Support**
-  - Polygon (MATIC)
-  - Binance Smart Chain (BNB)
-  - Arbitrum
-  - Optimism
-- [ ] **Advanced Security**
-  - Multi-signature wallets
-  - Hardware wallet integration
-  - Transaction signing via external device
-- [ ] **Social Features**
-  - Username system (ENS integration)
-  - Transaction requests
-  - Split payments
-
-### **Phase 5: Enterprise** 🏢 *Vision*
-- [ ] Business accounts
-- [ ] Accounting integrations
-- [ ] Tax reporting
-- [ ] API for developers
-- [ ] White-label solution
-
----
-
-## 🧪 Testing
-
-### **Unit Tests**
-
-Run unit tests for business logic:
-
-```bash
-flutter test
-```
-
-### **Integration Tests**
-
-Test complete user flows:
-
-```bash
-flutter test integration_test
-```
-
-### **Widget Tests**
-
-Test individual UI components:
-
-```bash
-flutter test test/widget_test.dart
-```
-
-### **Test Coverage**
-
-Generate coverage report:
-
-```bash
-flutter test --coverage
-genhtml coverage/lcov.info -o coverage/html
-open coverage/html/index.html
-```
-
-### **Manual Testing Checklist**
-
-**Wallet Operations:**
-- [ ] Create new wallet with mnemonic
-- [ ] Import wallet from seed phrase
-- [ ] Import wallet from private key
-- [ ] Export private key (with warning)
-- [ ] Backup wallet to cloud
-
-**Transactions:**
-- [ ] Send ETH to valid address
-- [ ] Receive ETH and verify balance update
-- [ ] Test with different gas prices
-- [ ] Handle insufficient balance error
-- [ ] Cancel pending transaction
-- [ ] Track transaction confirmations
-
-**Security:**
-- [ ] PIN authentication works
-- [ ] Biometric authentication works
-- [ ] Auto-lock after timeout
-- [ ] Private key encryption verified
-- [ ] Screenshot protection active
-
-**Network:**
-- [ ] Connect to Sepolia testnet
-- [ ] Real-time gas price updates
-- [ ] Live block number tracking
-- [ ] Network stats display correctly
-- [ ] Handle network disconnection
-
-**UI/UX:**
-- [ ] All animations smooth (60 FPS)
-- [ ] No UI glitches or overlaps
-- [ ] Responsive on different screen sizes
-- [ ] Dark theme consistent throughout
-- [ ] Loading states display properly
-
----
-
-## 🐛 Troubleshooting
-
-### **Common Issues**
-
-#### **Problem: "Insufficient funds for gas"**
-```
-Solution:
-1. Get free Sepolia ETH from faucet
-2. Visit: https://sepoliafaucet.com
-3. Enter your wallet address
-4. Wait for testnet ETH to arrive
-```
-
-#### **Problem: "Transaction stuck pending"**
-```
-Solution:
-1. Check network congestion on Etherscan
-2. Transaction may take longer with low gas price
-3. Option to speed up with higher gas price
-4. Or cancel and resubmit
-```
-
-#### **Problem: "Cannot connect to network"**
-```
-Solution:
-1. Check internet connection
-2. Verify Infura/Alchemy API key is valid
-3. Try switching between RPC providers
-4. Restart the app
-```
-
-#### **Problem: "Biometric authentication failed"**
-```
-Solution:
-1. Ensure biometrics are set up on device
-2. Grant app permission to use biometrics
-3. Fall back to PIN authentication
-4. Re-register biometrics in settings
-```
-
-#### **Problem: "QR scanner not working"**
-```
-Solution:
-1. Grant camera permission to app
-2. Ensure good lighting
-3. Clean camera lens
-4. Manually enter address as alternative
-```
-
-### **Debug Mode**
-
-Enable debug logging:
-
-```dart
-// lib/main.dart
-void main() {
-  // Enable debug mode
-  const bool isDebugMode = true;
-  
-  if (isDebugMode) {
-    print('🔧 Debug mode enabled');
-    // Additional logging
-  }
-  
-  runApp(MyApp());
-}
-```
-
-### **Reset Wallet (For Testing)**
-
-```dart
-// ⚠️ WARNING: This will delete all wallet data
-await SecureStorage.deleteAll();
-await LocalStorage.clear();
-// Restart app
-```
-
----
-
-## 📊 Performance Metrics
-
-### **App Performance**
-
-| Metric | Target | Achieved |
-|--------|--------|----------|
-| **App Launch Time** | < 2s | 1.8s ✅ |
-| **Frame Rate** | 60 FPS | 60 FPS ✅ |
-| **Transaction Broadcast** | < 500ms | 420ms ✅ |
-| **Balance Update** | < 1s | 850ms ✅ |
-| **Network Stats Refresh** | < 2s | 1.6s ✅ |
-| **App Size (APK)** | < 50MB | 42MB ✅ |
-
-### **Network Performance**
-
-| Operation | Average Time |
-|-----------|--------------|
-| **RPC Call** | ~200ms |
-| **Transaction Confirmation** | ~12s (1 block) |
-| **Etherscan Lookup** | ~150ms |
-| **Gas Price Fetch** | ~100ms |
-
----
-
 ## 🤝 Contributing
 
 We welcome contributions from the community! Whether it's bug fixes, new features, or documentation improvements, your help is appreciated.
@@ -910,7 +389,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2024 [Your Name]
+Copyright (c) 2024 Hom Bdr. Pathak Kshetri
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -946,13 +425,6 @@ This wallet is currently configured for **Sepolia Testnet only** and should **NO
 - ⚠️ Use at your own risk
 - ⚠️ Always verify transactions on Etherscan before confirming
 
-**For Mainnet Usage:**
-- Complete professional security audit
-- Implement additional safety measures
-- Use hardware wallet integration
-- Enable multi-signature requirements
-- Comprehensive insurance coverage
-
 ---
 
 ## 🙏 Acknowledgments
@@ -979,7 +451,6 @@ This project was inspired by leading crypto wallets:
 - [Ethereum Documentation](https://ethereum.org/en/developers/docs/)
 - [Flutter Documentation](https://docs.flutter.dev/)
 - [Web3.dart Package](https://pub.dev/packages/web3dart)
-- [Solidity Documentation](https://docs.soliditylang.org/)
 - [Etherscan API Docs](https://docs.etherscan.io/)
 
 ---
@@ -996,18 +467,6 @@ This project was inspired by leading crypto wallets:
 🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
 🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
 
-### **Project Links**
-
-📦 **Repository:** [github.com/yourusername/cryptovault-premium](https://github.com/yourusername/cryptovault-premium)  
-🐛 **Issues:** [github.com/yourusername/cryptovault-premium/issues](https://github.com/yourusername/cryptovault-premium/issues)  
-📖 **Wiki:** [github.com/yourusername/cryptovault-premium/wiki](https://github.com/yourusername/cryptovault-premium/wiki)  
-🎥 **Demo Video:** [youtube.com/watch?v=demo](https://youtube.com/watch?v=demo)
-
-### **Connect With the Community**
-
-💬 **Discord:** [Join our server](https://discord.gg/yourserver)  
-💼 **Telegram:** [@cryptovault_premium](https://t.me/cryptovault_premium)  
-📱 **Reddit:** [r/CryptoVault](https://reddit.com/r/CryptoVault)
 
 ---
 
@@ -1015,14 +474,14 @@ This project was inspired by leading crypto wallets:
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/yourusername/cryptovault-premium?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/cryptovault-premium?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/yourusername/cryptovault-premium?style=social)
+![GitHub stars](https://img.shields.io/github/stars/PHom798/cryptovault-premium?style=social)
+![GitHub forks](https://img.shields.io/github/forks/PHom798/cryptovault-premium?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/PHom798/cryptovault-premium?style=social)
 
-![GitHub issues](https://img.shields.io/github/issues/yourusername/cryptovault-premium)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/cryptovault-premium)
-![GitHub last commit](https://img.shields.io/github/last-commit/yourusername/cryptovault-premium)
-![GitHub code size](https://img.shields.io/github/languages/code-size/yourusername/cryptovault-premium)
+![GitHub issues](https://img.shields.io/github/issues/PHom798/cryptovault-premium)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/PHom798/cryptovault-premium)
+![GitHub last commit](https://img.shields.io/github/last-commit/PHom798/cryptovault-premium)
+![GitHub code size](https://img.shields.io/github/languages/code-size/PHom798/cryptovault-premium)
 
 </div>
 
@@ -1060,7 +519,7 @@ This project was inspired by leading crypto wallets:
 
 ---
 
-Made with 💙 by [Your Name] | Powered by Ethereum 🔷
+Made with 💙 by Hom | Powered by Ethereum 🔷
 
 ![Footer Wave](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Thank%20You!&fontSize=40&fontColor=fff&animation=twinkling)
 
