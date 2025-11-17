@@ -369,18 +369,18 @@ This project was inspired by leading crypto wallets:
 
 ---
 
-## 📞 Contact
+## 💬 Connect & Support
 
-### **Project Creator**
+For questions, feedback, or collaborations:
 
-**[Your Name]**
+<div align="center">
 
-📧 Email: your.email@example.com  
-💼 LinkedIn: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)  
-🐙 GitHub: [@yourusername](https://github.com/yourusername)  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)  
-🌐 Portfolio: [yourwebsite.com](https://yourwebsite.com)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?logo=github&logoColor=white)](https://github.com/PHom798)
+[![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?logo=twitter&logoColor=white)](https://x.com/KishanP07684084)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hom-bdr-pathak-01a3bb210)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](pathakhom17@gmail.com)
 
+</div>
 
 ---
 
