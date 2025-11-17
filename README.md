@@ -53,8 +53,8 @@
 
 ### 🌟 What Makes It Special?
 
-- 🎭 **Living Interface:** Animated network nodes that pulse with blockchain activity
-- 🎨 **Premium Design:** Glassmorphism, smooth animations, and thoughtful micro-interactions
+- 🎭 **Living Interface:** Animated network nodes that pulse in the background(Different each time)
+- 🎨 **Premium Design:**  smooth animations, and thoughtful micro-interactions
 - ⚡ **Lightning Fast:** Optimized transaction processing and instant updates
 - ✅ **Etherscan Verified:** All transactions verifiable on Etherscan explorer
 
@@ -120,7 +120,7 @@ dependencies:
   
   # Utilities
   share_plus: ^7.2.1            # Sharing functionality
-  url_launcher: ^6.2.1          # External links
+  animated_text_kit: ^4.2.2     # For animation
   intl: ^0.18.1                 # Internationalization
 ```
 
