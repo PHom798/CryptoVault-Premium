@@ -50,6 +50,14 @@
 
 **CryptoVault Premium** is not just another cryptocurrency wallet—it's a **living blockchain experience**. Built with cutting-edge Flutter technology and integrated with Ethereum's Sepolia testnet, this premium wallet transforms complex blockchain interactions into an elegant, intuitive interface.
 
+<div align="center">
+  
+  
+  <video src="https://github.com/user-attachments/assets/96a513b3-64ae-4e71-be2b-250f63175b21" controls width="100%" ></video>
+
+    
+</div>
+
 
 ### 🌟 What Makes It Special?
 
