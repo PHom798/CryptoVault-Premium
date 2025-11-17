@@ -373,7 +373,7 @@ This project was inspired by leading crypto wallets:
 
 ---
 
-## 💬 Connect & Support
+## 💬 Connect and Support
 
 For questions, feedback, or collaborations:
 
