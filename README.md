@@ -67,14 +67,13 @@
 #### **Ethereum Sepolia Testnet**
 - ✅ Full Web3 integration with Ethereum blockchain
 - ✅ Real-time connection to Sepolia testnet
-- ✅ Etherscan API integration for transaction verification
 
 ### 💰 **Wallet Functionality**
 
 #### **Core Features**
 - 💵 **Balance Display:** Real-time ETH balance updates
 - 💸 **Send ETH:** Seamless Ethereum transfers with custom gas settings
-- 📲 **Receive ETH:** QR code generation for easy receiving
+- 📲 **Receive ETH:** Effortless ETH receiving
 
 
 #### **Animated Visualizations**
@@ -118,12 +117,9 @@ dependencies:
   flutter_secure_storage: ^9.0.0  # Secure key storage
   
   # Utilities
-  qr_flutter: ^4.1.0            # QR code generation
-  mobile_scanner: ^3.5.2        # QR code scanning
   share_plus: ^7.2.1            # Sharing functionality
   url_launcher: ^6.2.1          # External links
   intl: ^0.18.1                 # Internationalization
-  cached_network_image: ^3.3.0 # Image caching
 ```
 
 ---
@@ -133,7 +129,6 @@ dependencies:
 
 #### 🔄 **Auto-Refresh Mechanism**
 - Background polling for network data
-- WebSocket connection for instant updates
 - Smart refresh intervals to save battery
 - Pull-to-refresh gesture support
 
