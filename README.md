@@ -41,7 +41,7 @@
 - [🚀 Getting Started](#-getting-started)
 - [💻 Installation](#-installation)
 - [📄 License](#-license)
-- [📞 Contact](#-Connect-&-Support)
+- [📞 Contact](#-connect-&-support)
 
 ---
 
