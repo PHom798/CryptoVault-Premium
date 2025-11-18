@@ -206,7 +206,7 @@ Before you begin, ensure you have the following installed:
 ### **1️⃣ Clone the Repository**
 
 ```bash
-git clone https://github.com/yourusername/cryptovault-premium.git
+https://github.com/PHom798/CryptoVault-Premium.git
 cd cryptovault-premium
 ```
 
