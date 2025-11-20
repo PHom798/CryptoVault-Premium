@@ -58,6 +58,9 @@
 </div>
 
 
+---
+
+
 ### 🌟 What Makes It Special?
 #### **🔒 Security Features (Production-Ready!)**
 - 🔐 **Biometric Authentication**: Supports Face ID and Fingerprint recognition for secure access.
@@ -79,15 +82,15 @@
 #### **💰 🎨 Professional UI/UX**
 - 🎭 **Living Interface:** Animated network nodes that pulse in the background(Different each time)
 - 🎨 **Premium Design:**  smooth animations, and thoughtful micro-interactions
-- ⚡ **Lightning Fast:** Optimized transaction processing and instant updates
-- ✅ **Etherscan Verified:** All transactions verifiable on Etherscan explorer
 
 
 
 #### 🔧 **Technical Excellence**
 - 📡 **Web3 Integration**: - Full Web3 integration with Ethereum blockchain
 - ⛓️ **Blockchain Interaction**: Direct interaction with Ethereum via RPC.
-- 
+- ✅ **Etherscan Verified:** All transactions verifiable on Etherscan explorer
+
+  
 
 ---
 
@@ -132,16 +135,6 @@ dependencies:
   animated_text_kit: ^4.2.2     # For animation
   intl: ^0.18.1                 # Internationalization
 ```
-
----
-
-
-#### 📊 **Real-Time Statistics Display**
-
-#### 🔄 **Auto-Refresh Mechanism**
-- Background polling for network data
-- Smart refresh intervals to save battery
-- Pull-to-refresh gesture support
 
 ---
 
@@ -226,9 +219,6 @@ Create a `.env` file in the root directory:
 # Ethereum Node Provider
 INFURA_PROJECT_ID=your_infura_project_id
 INFURA_API_SECRET=your_infura_secret
-
-# Alternative: Alchemy
-ALCHEMY_API_KEY=your_alchemy_api_key
 
 # Etherscan API
 ETHERSCAN_API_KEY=your_etherscan_api_key
