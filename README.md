@@ -35,7 +35,7 @@
 ## 📋 Table of Contents
 
 - [🎯 Overview](#-overview)
-- [✨ Key Features](#-key-features)
+- [✨ Key Features](#-what-makes-it-special)
 - [⚡ Technology Stack](#-technology-stack)
 - [📸 Showcase](#-showcase)
 - [🚀 Getting Started](#-getting-started)
@@ -59,33 +59,35 @@
 
 
 ### 🌟 What Makes It Special?
+#### **🔒 Security Features (Production-Ready!)**
+- 🔐 **Biometric Authentication**: Supports Face ID and Fingerprint recognition for secure access.
+- 🔑 **BIP39 Seed Phrase Generation**: Generate a 12-word recovery phrase for wallet recovery.
+- 💾 **Secure Storage**: Utilizes FlutterSecureStorage for encrypted data storage.
+- 📥 **Import Wallet**: Easily recover your wallet using the seed phrase.
 
+
+
+#### **💰 Wallet Features**
+- 💸 **Send ETH**: Send Ethereum with automatic gas estimation.
+- 📨 **Receive ETH**: Receive Ethereum using address copy.
+- 💵 **Real-time Balance**: Balance auto-refreshes every 15 seconds for up-to-date information.
+- 🔍 **Transaction Status**: Track transaction status from Pending to Confirmed with a timer.
+- 🌐 **Sepolia Testnet Explorer**:  Utilize a safe testing environment for development and testing purposes.
+  
+
+  
+#### **💰 🎨 Professional UI/UX**
 - 🎭 **Living Interface:** Animated network nodes that pulse in the background(Different each time)
 - 🎨 **Premium Design:**  smooth animations, and thoughtful micro-interactions
 - ⚡ **Lightning Fast:** Optimized transaction processing and instant updates
 - ✅ **Etherscan Verified:** All transactions verifiable on Etherscan explorer
 
----
-
-## ✨ Key Features
-
-### 🌐 **Blockchain Integration**
-
-#### **Ethereum Sepolia Testnet**
-- ✅ Full Web3 integration with Ethereum blockchain
-- ✅ Real-time connection to Sepolia testnet
-
-### 💰 **Wallet Functionality**
-
-#### **Core Features**
-- 💵 **Balance Display:** Real-time ETH balance updates
-- 💸 **Send ETH:** Seamless Ethereum transfers with custom gas settings
-- 📲 **Receive ETH:** Effortless ETH receiving
 
 
-#### **Animated Visualizations**
-- Network connection strength indicators
-- Interactive blockchain explorer integration
+#### 🔧 **Technical Excellence**
+- 📡 **Web3 Integration**: - Full Web3 integration with Ethereum blockchain
+- ⛓️ **Blockchain Interaction**: Direct interaction with Ethereum via RPC.
+- 
 
 ---
 
