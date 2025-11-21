@@ -106,7 +106,6 @@
 ![Ethereum](https://img.shields.io/badge/Ethereum-627EEA?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Web3](https://img.shields.io/badge/Web3.dart-F16822?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Etherscan](https://img.shields.io/badge/Etherscan%20API-21325B?style=for-the-badge&logo=ethereum&logoColor=white)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)](https://firebase.google.com)
 
 
 
