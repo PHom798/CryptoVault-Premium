@@ -197,6 +197,20 @@ dependencies:
 </div>
 
 ---
+## 🎬 Preview 3
+  
+*Utilize BIP39 Seed Phrase Generation to create a 12-word recovery phrase for easy wallet recovery, and seamlessly restore your wallet with the generated seed phrase.*
+
+<div align="Center">
+  <table>
+    <tr>
+      <td><video src="https://github.com/user-attachments/assets/450c98aa-b238-4c14-a977-2cc9d03e14ac" controls width="49%"></video></td>
+      <td>  <video src="https://github.com/user-attachments/assets/0a144cb0-ff4e-455f-9990-990a58b63444" controls width="49%"></video></td>
+    </tr>
+  </table>
+</div>
+
+---
 
 ## 🚀 Getting Started
 
