@@ -93,7 +93,7 @@
   ---
 ## 🎬 Preview 1
   
-*Experience a sleek splash screen, seamless login, and an intuitive dashboard for automated complaint categorization with smart detection and location tagging for easy submission.*
+*Introducing CryptoVault Premium: a revolutionary cryptocurrency wallet delivering a dynamic blockchain experience with a sleek interface and seamless integration with Ethereum's Sepolia testnet*
 
 <div align="left">
   <table>
