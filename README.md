@@ -43,6 +43,7 @@
 - [🚀 Getting Started](#-getting-started)
 - [💻 Installation](#-installation)
 - [📄 License](#-license)
+- [⚠️ Disclaimer](#-disclaimer)
 - [📞 Contact](#-connect-and-support)
 
 ---
