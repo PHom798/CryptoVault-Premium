@@ -107,8 +107,6 @@
 
 ---
 
----
-
 ## ⚡ Technology Stack
 
 <div align="center">
@@ -152,6 +150,21 @@ dependencies:
 
 ---
 
+## 🎬 Preview 2
+  
+*Experience seamless transfer and verification of ETH amounts with CryptoVault Premium, your ultimate cryptocurrency wallet for effortless blockchain interactions.*
+
+<div align="left">
+  <table>
+    <tr>
+      <td><video src="https://github.com/user-attachments/assets/96608ac4-c287-41a3-8eb0-f3f656531af0" controls width="49%"></video></td>
+      <td>  <video src="https://github.com/user-attachments/assets/591c5557-3172-426e-a6e9-556014210240" controls width="49%"></video></td>
+      <td>  <video src="https://github.com/user-attachments/assets/6eb28082-9f8b-415d-a6a5-f18b2aa12cb8" controls width="49%"></video></td>
+    </tr>
+  </table>
+</div>
+
+---
 
 ## 📸 Showcase
 
