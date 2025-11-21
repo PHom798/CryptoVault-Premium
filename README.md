@@ -90,7 +90,22 @@
 - ⛓️ **Blockchain Interaction**: Direct interaction with Ethereum via RPC.
 - ✅ **Etherscan Verified:** All transactions verifiable on Etherscan explorer
 
+  ---
+## 🎬 Preview 1
   
+*Experience a sleek splash screen, seamless login, and an intuitive dashboard for automated complaint categorization with smart detection and location tagging for easy submission.*
+
+<div align="left">
+  <table>
+    <tr>
+      <td><video src="https://github.com/user-attachments/assets/5c1ef64a-322f-49fa-ab28-72ba763838d3" controls width="49%"></video></td>
+      <td>  <video src="https://github.com/user-attachments/assets/cafa7541-235a-421b-b6b0-b88a4c03afe6" controls width="49%"></video></td>
+      <td>  <video src="https://github.com/user-attachments/assets/e1f1c6cd-9baf-4461-9bf1-59616f20b399" controls width="49%"></video></td>
+    </tr>
+  </table>
+</div>
+
+---
 
 ---
 
