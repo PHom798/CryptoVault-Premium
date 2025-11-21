@@ -166,35 +166,16 @@ dependencies:
 
 ---
 
-## 📸 Showcase
+## 📸 Transaction Details
 
 <div align="center">
-
-### **Main Screens**
-
-| Splash Screen | Onboarding | Create/Import Wallet |
-|:---:|:---:|:---:|
-| ![Splash](https://via.placeholder.com/250x500/627EEA/FFFFFF?text=Splash+Screen) | ![Onboard](https://via.placeholder.com/250x500/E6E6FA/627EEA?text=Onboarding) | ![Wallet](https://via.placeholder.com/250x500/50FA7B/FFFFFF?text=Setup) |
-
-| Dashboard | Live Network | Transaction History |
-|:---:|:---:|:---:|
-| ![Dashboard](https://via.placeholder.com/250x500/1E2A47/627EEA?text=Dashboard) | ![Network](https://via.placeholder.com/250x500/121D33/627EEA?text=Network+Viz) | ![History](https://via.placeholder.com/250x500/2A3F5F/FFFFFF?text=History) |
-
-| Send ETH | QR Scanner | Transaction Details |
-|:---:|:---:|:---:|
-| ![Send](https://via.placeholder.com/250x500/FFB86C/121D33?text=Send+ETH) | ![QR](https://via.placeholder.com/250x500/50FA7B/121D33?text=QR+Scanner) | ![Details](https://via.placeholder.com/250x500/FF5555/FFFFFF?text=TX+Details) |
-
-### **Premium UI Elements**
-
-| Glassmorphism Cards | Animated Buttons | Network Nodes |
-|:---:|:---:|:---:|
-| ![Glass](https://via.placeholder.com/250x500/E6E6FA/627EEA?text=Glass+Effects) | ![Buttons](https://via.placeholder.com/250x500/627EEA/FFFFFF?text=Animations) | ![Nodes](https://via.placeholder.com/250x500/121D33/50FA7B?text=Live+Nodes) |
-
-### **Video Demo**
-
-[![Demo Video](https://img.shields.io/badge/▶️-Watch%20Demo%20Video-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/your-demo-video)
-
+  <table>
+    <tr>
+      <td><img src="shots/Transaction.png" alt="Finance Dashboard Example 1" width="100%"/></td>
+    </tr>
+  </table>
 </div>
+
 
 ---
 ## 🎬 Preview 3
@@ -213,6 +194,14 @@ dependencies:
 ---
 
 ## 🚀 Getting Started
+<div align="center">
+  <table>
+    <tr>
+      <td><img src="shots/ASClick.png" alt="Finance Dashboard Example 1" width="100%"/></td>
+    </tr>
+  </table>
+</div>
+
 
 ### **Prerequisites**
 
